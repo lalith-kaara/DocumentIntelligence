@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{69935ED7-C89F-475F-BEEE-3348EE76444A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentIntelligence.FunctionApp", "src\DocumentIntelligence.FunctionApp\DocumentIntelligence.FunctionApp.csproj", "{5B62E40D-1031-4039-B2EA-83D05329F040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentIntelligence.Business", "src\DocumentIntelligence.Business\DocumentIntelligence.Business.csproj", "{EBEFD16F-DD2A-4103-8FE7-13182D1C59CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B62E40D-1031-4039-B2EA-83D05329F040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B62E40D-1031-4039-B2EA-83D05329F040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B62E40D-1031-4039-B2EA-83D05329F040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B62E40D-1031-4039-B2EA-83D05329F040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBEFD16F-DD2A-4103-8FE7-13182D1C59CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEFD16F-DD2A-4103-8FE7-13182D1C59CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBEFD16F-DD2A-4103-8FE7-13182D1C59CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBEFD16F-DD2A-4103-8FE7-13182D1C59CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B62E40D-1031-4039-B2EA-83D05329F040} = {69935ED7-C89F-475F-BEEE-3348EE76444A}
+		{EBEFD16F-DD2A-4103-8FE7-13182D1C59CF} = {69935ED7-C89F-475F-BEEE-3348EE76444A}
+	EndGlobalSection
+EndGlobal
